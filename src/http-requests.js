@@ -9,6 +9,12 @@ const http = {
     console.log("Post Request called")
     window.alert("Doing a post request");
     return 200;
+  },
+
+  put: () => {
+    console.log("Put Request called")
+    window.alert("Doing a post request");
+    return 200;
   }
 }
 
